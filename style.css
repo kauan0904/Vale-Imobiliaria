@@ -1,0 +1,135 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  /* Header e Navegação */
+  header .top-bar {
+    background: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 0.5rem 0;
+  }
+  
+  .navbar {
+    background: #f4f4f4;
+    padding: 1rem 0;
+  }
+  
+  .navbar .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #2c3e50;
+  }
+  
+  .navbar .nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .navbar .nav-links li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  /* Hero */
+  .hero {
+    background: url('https://via.placeholder.com/1920x500') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 5rem 0;
+  }
+  
+  .hero h1 {
+    font-size: 2.5rem;
+  }
+  
+  .hero p {
+    margin: 1rem 0;
+  }
+  
+  .search-form {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+  }
+  
+  .search-form input,
+  .search-form select,
+  .search-form button {
+    padding: 0.7rem;
+    font-size: 1rem;
+  }
+  
+  .search-form button {
+    background: #2c3e50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Seções */
+  .about-section,
+  .properties-section,
+  .services-section {
+    padding: 2rem 0;
+    text-align: center;
+  }
+  
+  .property-carousel {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .property-card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 1rem;
+    width: 300px;
+  }
+  
+  .property-card img {
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+  .services-section .service-grid {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+  }
+  
+  .service {
+    text-align: center;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 200px;
+  }
+  
+  /* Footer */
+  footer {
+    background: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+  }
+  img{
+    height: 200px;
+  }
+  .img1{
+    height: 550px;
+    
+  }
+  
